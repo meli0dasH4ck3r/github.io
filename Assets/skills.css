@@ -63,12 +63,12 @@ nav h1 {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly; /* Đảm bảo các mục cách đều nhau */
+    justify-content: space-evenly; 
     align-items: center;
 }
 
 nav ul li {
-    width: 120px; /* Đảm bảo chiều rộng của mỗi mục menu */
+    width: 120px; 
 }
 
 nav a {
@@ -84,7 +84,7 @@ nav a:hover,
 .active {
     color: #4acfee;
     text-decoration: underline;
-    padding: 0px 25px; /* Đảm bảo padding không thay đổi */
+    padding: 0px 25px; 
 }
 
 .hero {
