@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Smooth scrolling for navigation links
+  // Smooth scrolling 
   document.querySelectorAll('nav ul li a').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
           e.preventDefault();
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 
-  // Add active class to highlight current button
+  // ACtive class highlight current button
   var header = document.querySelector('nav ul');
   var btns = header.getElementsByClassName('active');
   for (var i = 0; i < btns.length; i++) {
@@ -20,14 +20,14 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   }
 
-  // Initialize AOS (Animation on Scroll)
+  // Initialize AOS 
   AOS.init({
       duration: 1000,
       delay: 200,
       once: true
   });
 
-  // Add animation to the hero section text
+  // Add animation to hero sections
   const heroText = document.querySelector('.hero-info h1');
   heroText.classList.add('animate__animated', 'animate__fadeInDown');
 

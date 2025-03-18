@@ -1,0 +1,12 @@
+FROM nginx:alpine
+
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY index.html /usr/share/nginx/html/
+COPY about.html /usr/share/nginx/html/
+COPY contact.html /usr/share/nginx/html/
+COPY projects.html /usr/share/nginx/html/
+COPY skills.html /usr/share/nginx/html/
+COPY Assets /usr/share/nginx/html/Assets
+COPY Scripts /usr/share/nginx/html/Scripts
+COPY images /usr/share/nginx/html/images

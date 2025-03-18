@@ -63,7 +63,7 @@ nav h1 {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly; /* Đảm bảo các mục cách đều nhau */
+    justify-content: space-evenly; 
     align-items: center;
 }
 
