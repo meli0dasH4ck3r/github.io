@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
 
-        /*
+        
         // EmailJS
         emailjs.init("Lh-j6vRh0MjNVFu0v");
 
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 alert("Failed to send message. Try again later.");
             }
         );
-        */
+        
     }); 
 
     // Improved DevTools Detection
